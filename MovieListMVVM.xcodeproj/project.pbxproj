@@ -17,6 +17,7 @@
 		B83FE4C0290F44CB00C627DF /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4BF290F44CB00C627DF /* NetworkConstant.swift */; };
 		B83FE4C4290F478900C627DF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4C3290F478900C627DF /* APICaller.swift */; };
 		B83FE4C6290F47B100C627DF /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4C5290F47B100C627DF /* TrendingMoviesModel.swift */; };
+		B83FE4C8290FE5DF00C627DF /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4C7290FE5DF00C627DF /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B83FE4BF290F44CB00C627DF /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		B83FE4C3290F478900C627DF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		B83FE4C5290F47B100C627DF /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
+		B83FE4C7290FE5DF00C627DF /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		B83FE4B7290F371000C627DF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B83FE4C7290FE5DF00C627DF /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83FE4C8290FE5DF00C627DF /* Observable.swift in Sources */,
 				B83FE49B290F1ADE00C627DF /* AppDelegate.swift in Sources */,
 				B83FE4BC290F3C5C00C627DF /* MainViewController+TableView.swift in Sources */,
 				B83FE4B1290F27DD00C627DF /* MainViewController.swift in Sources */,
