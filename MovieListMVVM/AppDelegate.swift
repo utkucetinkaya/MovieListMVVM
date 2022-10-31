@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         
         self.window = window
-        Thread.sleep(forTimeInterval: 3.0)
+        //Thread.sleep(forTimeInterval: 3.0)
         return true
     }
 }

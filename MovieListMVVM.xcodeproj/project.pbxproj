@@ -12,6 +12,11 @@
 		B83FE4A7290F1AE000C627DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83FE4A5290F1AE000C627DF /* LaunchScreen.storyboard */; };
 		B83FE4B1290F27DD00C627DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4AF290F27DC00C627DF /* MainViewController.swift */; };
 		B83FE4B2290F27DD00C627DF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83FE4B0290F27DD00C627DF /* MainViewController.xib */; };
+		B83FE4BC290F3C5C00C627DF /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4BB290F3C5C00C627DF /* MainViewController+TableView.swift */; };
+		B83FE4BE290F3DA900C627DF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4BD290F3DA900C627DF /* MainViewModel.swift */; };
+		B83FE4C0290F44CB00C627DF /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4BF290F44CB00C627DF /* NetworkConstant.swift */; };
+		B83FE4C4290F478900C627DF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4C3290F478900C627DF /* APICaller.swift */; };
+		B83FE4C6290F47B100C627DF /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83FE4C5290F47B100C627DF /* TrendingMoviesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B83FE4A8290F1AE000C627DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83FE4AF290F27DC00C627DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B83FE4B0290F27DD00C627DF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B83FE4BB290F3C5C00C627DF /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		B83FE4BD290F3DA900C627DF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B83FE4BF290F44CB00C627DF /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		B83FE4C3290F478900C627DF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		B83FE4C5290F47B100C627DF /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 			children = (
 				B83FE4AF290F27DC00C627DF /* MainViewController.swift */,
 				B83FE4B0290F27DD00C627DF /* MainViewController.xib */,
+				B83FE4BB290F3C5C00C627DF /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -88,6 +99,7 @@
 		B83FE4B4290F36E500C627DF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B83FE4BD290F3DA900C627DF /* MainViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -103,6 +115,7 @@
 		B83FE4B6290F370B00C627DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B83FE4C5290F47B100C627DF /* TrendingMoviesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +145,8 @@
 		B83FE4BA290F372800C627DF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				B83FE4BF290F44CB00C627DF /* NetworkConstant.swift */,
+				B83FE4C3290F478900C627DF /* APICaller.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -208,7 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83FE49B290F1ADE00C627DF /* AppDelegate.swift in Sources */,
+				B83FE4BC290F3C5C00C627DF /* MainViewController+TableView.swift in Sources */,
 				B83FE4B1290F27DD00C627DF /* MainViewController.swift in Sources */,
+				B83FE4C4290F478900C627DF /* APICaller.swift in Sources */,
+				B83FE4C0290F44CB00C627DF /* NetworkConstant.swift in Sources */,
+				B83FE4BE290F3DA900C627DF /* MainViewModel.swift in Sources */,
+				B83FE4C6290F47B100C627DF /* TrendingMoviesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
