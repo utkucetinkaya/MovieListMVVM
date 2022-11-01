@@ -20,45 +20,45 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AI7-2d-E4I">
                         <rect key="frame" x="16" y="8" width="300" height="182"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AjG-so-0Gt">
-                                <rect key="frame" x="8" y="5" width="101" height="172"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AjG-so-0Gt">
+                                <rect key="frame" x="8" y="5" width="130" height="172"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="AjG-so-0Gt" secondAttribute="height" multiplier="97:165" id="zBY-Er-Btg"/>
+                                    <constraint firstAttribute="width" constant="130" id="Jzu-X9-tyo"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHG-Ml-OJr">
-                                <rect key="frame" x="116" y="5" width="176" height="19.666666666666668"/>
+                                <rect key="frame" x="146" y="5" width="146" height="19.666666666666668"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4D-iF-UkJ">
-                                <rect key="frame" x="116" y="161" width="176" height="16"/>
+                                <rect key="frame" x="146" y="161" width="146" height="16"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeV-jd-2rT">
-                                <rect key="frame" x="116" y="133.66666666666666" width="176" height="17.333333333333343"/>
+                                <rect key="frame" x="146" y="133.66666666666666" width="146" height="17.333333333333343"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="X4D-iF-UkJ" secondAttribute="trailing" constant="8" id="1v7-p3-Qaa"/>
-                            <constraint firstAttribute="trailing" secondItem="zeV-jd-2rT" secondAttribute="trailing" constant="8" id="3ID-lM-2Pm"/>
-                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="bottom" secondItem="AjG-so-0Gt" secondAttribute="bottom" id="9JN-s9-C1I"/>
-                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="7" id="Bdf-fa-Xoh"/>
-                            <constraint firstItem="qHG-Ml-OJr" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="7" id="XOK-ZR-ZtT"/>
-                            <constraint firstItem="AjG-so-0Gt" firstAttribute="top" secondItem="AI7-2d-E4I" secondAttribute="top" constant="5" id="e67-i8-u8R"/>
-                            <constraint firstAttribute="trailing" secondItem="qHG-Ml-OJr" secondAttribute="trailing" constant="8" id="g6L-KN-Fmn"/>
-                            <constraint firstItem="qHG-Ml-OJr" firstAttribute="top" secondItem="AjG-so-0Gt" secondAttribute="top" id="j6h-po-j8B"/>
-                            <constraint firstItem="AjG-so-0Gt" firstAttribute="leading" secondItem="AI7-2d-E4I" secondAttribute="leading" constant="8" id="kyq-Ax-NcL"/>
-                            <constraint firstAttribute="bottom" secondItem="AjG-so-0Gt" secondAttribute="bottom" constant="5" id="mBq-28-02S"/>
-                            <constraint firstItem="zeV-jd-2rT" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="7" id="ppE-Jb-PvJ"/>
-                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="top" secondItem="zeV-jd-2rT" secondAttribute="bottom" constant="10" id="t02-Z0-qey"/>
+                            <constraint firstAttribute="trailing" secondItem="X4D-iF-UkJ" secondAttribute="trailing" constant="8" id="6CQ-za-BHV"/>
+                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="top" secondItem="zeV-jd-2rT" secondAttribute="bottom" constant="10" id="AhE-O7-uIz"/>
+                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="8" id="DVL-EX-Co2"/>
+                            <constraint firstItem="X4D-iF-UkJ" firstAttribute="bottom" secondItem="AjG-so-0Gt" secondAttribute="bottom" id="VAa-Vl-GXg"/>
+                            <constraint firstAttribute="bottom" secondItem="AjG-so-0Gt" secondAttribute="bottom" constant="5" id="b8V-DF-yYz"/>
+                            <constraint firstItem="qHG-Ml-OJr" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="8" id="bJl-RZ-ueK"/>
+                            <constraint firstItem="qHG-Ml-OJr" firstAttribute="top" secondItem="AjG-so-0Gt" secondAttribute="top" id="fwC-FD-vqz"/>
+                            <constraint firstItem="zeV-jd-2rT" firstAttribute="leading" secondItem="AjG-so-0Gt" secondAttribute="trailing" constant="8" id="iNr-NL-Gxv"/>
+                            <constraint firstItem="AjG-so-0Gt" firstAttribute="leading" secondItem="AI7-2d-E4I" secondAttribute="leading" constant="8" id="q1J-N0-NCN"/>
+                            <constraint firstAttribute="trailing" secondItem="zeV-jd-2rT" secondAttribute="trailing" constant="8" id="sEa-G5-jDd"/>
+                            <constraint firstAttribute="trailing" secondItem="qHG-Ml-OJr" secondAttribute="trailing" constant="8" id="u6D-Lx-k2t"/>
+                            <constraint firstItem="AjG-so-0Gt" firstAttribute="top" secondItem="AI7-2d-E4I" secondAttribute="top" constant="5" id="xOx-Ic-EGU"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -83,8 +83,8 @@
         </tableViewCell>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
