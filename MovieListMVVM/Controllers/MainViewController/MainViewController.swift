@@ -37,8 +37,8 @@ class MainViewController: UIViewController {
     
     func configView(){
         
-        self.title = "Movies"
-        self.view.backgroundColor = .systemGray2
+        self.title = "Top Trending Movies"
+        self.view.backgroundColor = .systemBackground
         
         setupTableView()
     }
@@ -63,6 +63,18 @@ class MainViewController: UIViewController {
             }
             self.cellDataSource = movies
             self.reloadTableView()
+        }
+    }
+    
+    func openDetails(movieId: Int) {
+        guard let movie = viewModel.retriveMovie(withId: movieId) else {
+            return
+        }
+        
+        DispatchQueue.main.async {
+            let detailsViewModel = DetailsMovieViewModel(movie: movie)
+            let controller = DetailsMovieViewController(viewModel: detailsViewModel)
+            self.navigationController?.pushViewController(controller, animated: true)
         }
     }
 }

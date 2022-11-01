@@ -47,4 +47,12 @@ class MainViewModel {
             return movie.title ?? movie.name ?? ""
         }
     }
+    
+    func retriveMovie(withId id: Int) -> Movie? {
+        guard let movie = dataSource?.results.first(where: {$0.id == id}) else {
+            return nil
+        }
+        
+        return movie
+    }
 }
